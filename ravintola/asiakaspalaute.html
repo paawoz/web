@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-size: 28px;
+  background-image: url('ravintola.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+html {
+  background-image:('ravintola.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3a86ff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: flexbox;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #a2d2ff;
+}
+
+.active {
+  background-color: #0a373f;
+}
+
+div {
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 40%;
+    left: 60%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+.asiakaspalaute {
+   width:500px;
+   top:50%;
+   left:50%;
+   position:absolute;
+   font-size: 40px;
+   text-decoration: underline;
+}
+
+
+</style>
+</head>
+<body>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="otsikko">
+  <h2></h2>
+</div>
+<div class='asiakaspalaute'>
+    <p style="color:rgb(3, 255, 251)">Mitä pidit palvelusta ja ruuasta</p>
+      <input class='form-control' placeholder='Nimi' type='text'>
+      <input class='form-control' placeholder='Sähköposti' type='text'>
+      <textarea class='form-control' id='fb-comment' name='' placeholder='Mitä pidit'></textarea>
+      <input type="submit" value="Submit">
+    </form>
+    </div>
+  </div>
+  <div class="laatikko">
+    <p></p>
+  </div>
+<ul>
+  <li><a href="index.html">Koti</a></li>
+  <li><a href="ruokalista.html">Ruokalista</a></li>
+  <li><a href="yhteistiedot.html">Yhteistiedot</a></li>
+  <li><a class="active" href="asiakaspalaute.html">Asiakaspalaute</a></li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-size: 28px;
+  background-image: url('ravintola.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+html {
+  background-image:('ravintola.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3a86ff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: flexbox;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #a2d2ff;
+}
+
+.active {
+  background-color: #0a373f;
+}
+
+div {
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+    font-size: 100px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+</style>
+</head>
+<body>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="otsikko">
+  <p style="color:rgb(4, 237, 254)">Lapintaika</p>
+</div>
+<ul>
+  <li><a class="active" href="index.html">Koti</a></li>
+  <li><a href="ruokalista.html">Ruokalista</a></li>
+  <li><a href="yhteistiedot.html">Yhteistiedot</a></li>
+  <li><a href="asiakaspalaute.html">Asiakaspalaute</a></li>
+</ul>
+
+</body>
+</html>

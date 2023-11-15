@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-size: 28px;
+  background-image: url('ravintola.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+html {
+  background-image:('ravintola.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3a86ff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: flexbox;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #a2d2ff;
+}
+
+.active {
+  background-color: #0a373f;
+}
+
+div {
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 40%;
+    left: 60%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+.yhteistiedot {
+    height: 600px;
+    width: 400px;
+    position: fixed;
+    top: 20%;
+    left: 60%;
+    margin-top: -100px;
+    margin-left: -320px;
+    padding-block: 100px;
+    font-size: 28px;
+    text-decoration: underline;
+    background-color: aliceblue;
+    text-align: center;
+    opacity: 60%;
+    
+}
+
+.sijainti {
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 72%;
+    left: 54%;
+    margin-top: -220px;
+    margin-left: -200px;
+    font-size: 18px;
+    text-decoration-line: underline;
+}
+
+</style>
+</head>
+<body>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="otsikko">
+  <p></p>
+</div>
+<div class="yhteistiedot">
+    <p>Yhteistiedot ja aukioloajat:</p>
+</div>
+<div class="sijainti">
+    <p>Ravintola Lapintaika, Ravintolakatu 2, 98765 LAPINMAA</p>
+    <p>Puh. (012) 345 6789 Sähköposti: varaukset@jokuposti.net</p>
+    <p>aukioloajat: ma - pe, 10:30 - 15:00</p>
+</div>
+<ul>
+    <li><a href="index.html">Koti</a></li>
+    <li><a href="ruokalista.html">Ruokalista</a></li>
+    <li><a a class="active" href="yhteistiedot.html">Yhteistiedot</a></li>
+    <li><a href="asiakaspalaute.html">Asiakaspalaute</a></li>
+  </ul>
+</body>
+</html>
