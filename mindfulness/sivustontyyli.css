@@ -1,0 +1,154 @@
+nav {
+    background-color: #557C55;
+    text-align: center;
+}
+
+div.kotiteksti {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+    font-size:5vw;
+    position:relative;
+    top: -70px;
+}
+
+div.kotiteksti2 {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+    font-size:4vw;
+    position:relative;
+    top: -70px;
+}
+
+div.kotiteksti2 h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+    font-size:5vw;
+    position:relative;
+    top: 10px;
+}
+
+div.hinnasto h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+    font-size:10vw;
+    position:relative;
+    top: -20px;
+}
+
+div.harjoitushinnasto {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+    font-size:6vw;
+    position:relative;
+    top: -10px;
+}
+
+div.harjoitus {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+    font-size:3vw;
+    position:relative;
+    top: 10px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5%;
+    width: 50%;
+}
+
+div.sticky {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    border: 2px solid #295e2b;
+    background-color: #557C55;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.kuva1 {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -12%;
+    width: 50%;
+}
+
+.logokuva {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    width: 50%;
+}
+
+.harjoitukset {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 50%;
+    border: solid;
+}
+
+body {
+    background-image: url('mindfulness2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+nav a:hover {
+    color: rgb(142, 187, 38);
+}
+
+
+footer {
+    margin-top: -90px;
+    padding: 5px;
+    height:auto;
+    width:auto;
+    background-color: #557C55;
+    text-align: center;
+    color: black;
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+    opacity: 95%
+}
+
+div.kartta iframe {
+    position: relative;
+    width: 185px;
+    height: 110px;
+    bottom: 90px;
+}
+
+div.kartta a {
+    text-shadow: white 0px 0px 10px;
+    font-size: 20px;
+    color: black;
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+    text-decoration: underline;
+    position: relative;
+    top: -95px;
+}
+
+div.kartta a:hover {
+    color: rgb(142, 187, 38);
+}
+
+a.active {
+    color:black
+}
